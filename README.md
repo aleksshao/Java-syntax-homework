@@ -1,6 +1,8 @@
 # Java-syntax-homework - 19.03.2016 
 
-import java.util.Scanner;
+
+
+
 
 public class CalculateExpression {
     public static void main(String[] args) {
@@ -18,7 +20,6 @@ public class CalculateExpression {
     }
 }
 
-import java.util.Scanner;
 
 public class CharacterMultiplier {
     public static void main(String[] args) {
@@ -51,7 +52,7 @@ public class CharacterMultiplier {
     }
 }
 
-import java.util.Scanner;
+
 
 public class ConvertFromBase7ToDecimal {
     public static void main(String[] args) {
@@ -75,7 +76,7 @@ public class ConvertFromBase7ToDecimal {
 }
 
 
-import java.util.Scanner;
+
 
 public class ConvertFromDecimalSystemTobase7 {
     public static void main(String[] args) {
@@ -96,9 +97,7 @@ public class ConvertFromDecimalSystemTobase7 {
 //https://www.youtube.com/watch?v=yxIGZ9wST_4
 
 
-import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
 
 public class ExtractWords {
         public static void main(String[] args) {
@@ -112,7 +111,7 @@ public class ExtractWords {
     }
 }
 
-import java.util.Scanner;
+
 
 public class FormattingNumbers {
         public static void main(String[] args) {
@@ -132,7 +131,7 @@ public class FormattingNumbers {
 }
 
 
-import java.util.Scanner;
+
 
 public class HitTheTarget {
     public static void main(String[] args) {
@@ -152,7 +151,7 @@ public class HitTheTarget {
     }
 }
 
-import java.util.Scanner;
+
 
 public class OddAndEvenPairs {
     public static void main(String[] args) {
@@ -180,7 +179,7 @@ public class OddAndEvenPairs {
     }
 }
 
-import java.util.Scanner;
+
 
 public class RandomizeNumbersFromNToM {
     public static void main(String[] args) {
@@ -203,7 +202,8 @@ public class RandomizeNumbersFromNToM {
 
 }
 
-import java.util.Scanner;
+
+
 
 public class RectangleArea {
 
@@ -218,9 +218,8 @@ public class RectangleArea {
     }
 }
 
-import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
+
 
 public class StartsAndEndsWithCapitalLetter {
             public static void main(String[] args) {
@@ -238,7 +237,7 @@ public class StartsAndEndsWithCapitalLetter {
     }
     
     
-    mport java.util.Scanner;
+  
 
 public class TriangleArea {
     public static void main(String[] args) {
