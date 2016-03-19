@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class ConvertFromDecimalSystemTobase7 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int number = input.nextInt();
+        int base = input.nextInt();
+        int remainder;
+        String result = " ";
+        while(number != 0){
+            remainder = number % base;
+            result = remainder + result;
+            number = number / base;
+        }
+        System.out.println(result);
+    }
+}
+
+//https://www.youtube.com/watch?v=yxIGZ9wST_4
