@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class FormattingNumbers {
+        public static void main(String[] args) {
+            Scanner input = new Scanner(System.in);
+
+            int a = input.nextInt();
+            float b = input.nextFloat();
+            float c = input.nextFloat();
+
+            String temp = Integer.toBinaryString(a);
+            int temp1 = Integer.parseInt(temp);
+
+            System.out.printf("|%X" + "    " + "|0%09d|" + "     " + "%.2f" + "|%.3f|", a, temp1, b, c);
+
+
+        }
+}
