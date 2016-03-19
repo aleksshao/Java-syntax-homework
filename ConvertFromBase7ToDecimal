@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class ConvertFromBase7ToDecimal {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        int base = input.nextInt();
+        String number = input.next();
+
+        int decimalValue = 0;
+        int step = 0;
+        for (int i = number.length() - 1; i >= 0; i--) {
+            char ch = number.charAt(i);
+            //System.out.println(c);
+            int chValue = Character.digit(ch, base);
+            //System.out.println(cValue);
+            decimalValue = decimalValue + (chValue * (int) Math.pow(base, step));
+            step++;
+        }
+        System.out.println(decimalValue);
+
+    }
+}
