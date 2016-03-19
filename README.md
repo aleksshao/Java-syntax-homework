@@ -1,4 +1,4 @@
-# Java-syntax-homework
+# Java-syntax-homework - 19.03.2016 
 
 import java.util.Scanner;
 
