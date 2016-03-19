@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class RandomizeNumbersFromNToM {
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        int n = input.nextInt();
+        int m = input.nextInt();
+        if (n > m) {
+            for (int i = 0; i < (n - m)+ 1; i++) {
+                System.out.print(" " + (int) ((Math.random() * (m - n) + n)));
+            }
+        } else {
+            for (int i = 0; i < (m - n)+ 1; i++) {
+                System.out.print(" " + (int) ((Math.random() * (m - n) + n)));
+            }
+
+
+        }
+    }
+
+}
